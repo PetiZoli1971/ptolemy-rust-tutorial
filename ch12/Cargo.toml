@@ -1,0 +1,11 @@
+[package]
+name = "ch12"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+# The real crates, from the sibling checkout at ~/_my/rust/ptolemy.
+ptolemy-time = { path = "../../../ptolemy/crates/ptolemy-time" }
+ptolemy-astro = { path = "../../../ptolemy/crates/ptolemy-astro" }

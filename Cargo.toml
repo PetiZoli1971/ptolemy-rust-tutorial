@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ch7", "ch8", "ch9", "ch10", "ch11", "ch12"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+
+[workspace.dependencies]
+approx = "0.5"
+log = "0.4"
+ndarray = "0.16"
+proptest = "1"
+serde_json = "1"
+thiserror = "2"
